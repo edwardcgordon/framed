@@ -1,0 +1,51 @@
+/* General Styling for the page */
+body {
+	margin-top: 5%;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	border-bottom-width: 1px;
+	border-color: black;
+	border-bottom-style: solid;
+}
+
+/*Navigation */
+nav {
+	margin-bottom: 3%;
+}
+
+ul {
+	text-align: center;
+	padding: 0;
+}
+
+li {
+	font-family: 'Nunito', sans-serif;
+	display: inline;
+	padding-right: 25px;
+}
+
+
+/* Gallery Styles */
+
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gallery-block {
+	margin: 1%;
+	max-width: 100%;
+	display: flex;
+}
+
+.gallery-image {
+	max-width: 100%;
+	max-height: 50vh;
+	object-fit: cover;
+	border-radius: 0.3em;
+}
