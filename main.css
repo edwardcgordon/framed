@@ -1,4 +1,4 @@
-/* General Styling for the page */
+/* General Styles */
 body {
 	margin-top: 5%;
 }
@@ -49,4 +49,12 @@ li {
 	max-height: 50vh;
 	object-fit: cover;
 	border-radius: 0.3em;
+}
+
+
+/* Mobile Styles */
+@media (max-width: 740px) {
+  .gallery-image {
+    width: 100%;
+  }
 }
