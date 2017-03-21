@@ -46,7 +46,7 @@ li {
 
 .gallery-image {
 	max-width: 100%;
-	max-height: 50vh;
+	max-height: 45vh;
 	object-fit: cover;
 	border-radius: 0.3em;
 }
